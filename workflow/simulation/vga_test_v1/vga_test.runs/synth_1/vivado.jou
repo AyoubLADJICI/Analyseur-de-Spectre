@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 04:59:54 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Fri Apr  4 18:22:34 2025
+# Process ID: 203672
+# Current directory: /home/polytech/Bureau/workflow-2024-2025-ei4/vga_test/vga_test.runs/synth_1
+# Command line: vivado -log top_vga.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_vga.tcl
+# Log file: /home/polytech/Bureau/workflow-2024-2025-ei4/vga_test/vga_test.runs/synth_1/top_vga.vds
+# Journal file: /home/polytech/Bureau/workflow-2024-2025-ei4/vga_test/vga_test.runs/synth_1/vivado.jou
+# Running On: polytech-HP-EliteBook-840-G8-Notebook-PC, OS: Linux, CPU Frequency: 400.773 MHz, CPU Physical cores: 4, Host memory: 33324 MB
+#-----------------------------------------------------------
+source top_vga.tcl -notrace

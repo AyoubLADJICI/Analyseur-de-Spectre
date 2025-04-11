@@ -1,0 +1,6 @@
+cp /home/polytech/Bureau/workflow-2024-2025-ei4/rtl/led_blink/synth/pkg_led_blink.vhd /home/polytech/Bureau/workflow-2024-2025-ei4/build/spectrum_analyzer_avnet_zedboard/vivado/build/pkg_led_blink.vhd
+cp /home/polytech/Bureau/workflow-2024-2025-ei4/rtl/led_blink/synth/led_blink.vhd /home/polytech/Bureau/workflow-2024-2025-ei4/build/spectrum_analyzer_avnet_zedboard/vivado/build/led_blink.vhd
+cp /home/polytech/Bureau/workflow-2024-2025-ei4/rtl/simple_axis_adder/synth/simple_axis_adder.vhd /home/polytech/Bureau/workflow-2024-2025-ei4/build/spectrum_analyzer_avnet_zedboard/vivado/build/simple_axis_adder.vhd
+cp /home/polytech/Bureau/workflow-2024-2025-ei4/rtl/simple_axis_adder/synth/simple_axis_adder_pkg.vhd /home/polytech/Bureau/workflow-2024-2025-ei4/build/spectrum_analyzer_avnet_zedboard/vivado/build/simple_axis_adder_pkg.vhd
+cp /home/polytech/Bureau/workflow-2024-2025-ei4/project/spectrum_analyzer/avnet_zedboard/synth/design_1.bd /home/polytech/Bureau/workflow-2024-2025-ei4/build/spectrum_analyzer_avnet_zedboard/vivado/build/design_1.bd
+cp /home/polytech/Bureau/workflow-2024-2025-ei4/project/spectrum_analyzer/avnet_zedboard/synth/spectrum_analyzer_top.vhd /home/polytech/Bureau/workflow-2024-2025-ei4/build/spectrum_analyzer_avnet_zedboard/vivado/build/spectrum_analyzer_top.vhd

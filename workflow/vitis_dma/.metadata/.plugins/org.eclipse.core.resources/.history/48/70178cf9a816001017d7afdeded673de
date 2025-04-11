@@ -1,0 +1,35 @@
+#include "xil_io.h"
+#include "xparameters.h"
+#include "sleep.h"  // Nécessaire pour sleep()
+
+#define DDR_BASE_ADDR     0x10000000  // Adresse de base du framebuffer
+#define FRAME_WIDTH       640
+#define FRAME_HEIGHT      480
+
+int main() {
+    u32 *frame_ptr;
+
+    while (1) {
+        // --- Image 1 : violet (R=15, G=0, B=15) => 0x0000F00F
+        frame_ptr = (u32 *) DDR_BASE_ADDR;
+        for (int y = 0; y < FRAME_HEIGHT; y++) {
+            for (int x = 0; x < FRAME_WIDTH; x++) {
+                *frame_ptr++ = 0x0000F00F;
+            }
+        }
+
+        sleep(1);  // Attend 1 seconde
+
+        // --- Image 2 : vert (R=0, G=15, B=0) => 0x000000F0
+        frame_ptr = (u32 *) DDR_BASE_ADDR;
+        for (int y = 0; y < FRAME_HEIGHT; y++) {
+            for (int x = 0; x < FRAME_WIDTH; x++) {
+                *frame_ptr++ = 0x000000F0;
+            }
+        }
+
+        sleep(1);  // Attend 1 seconde
+    }
+
+    return 0;
+}
